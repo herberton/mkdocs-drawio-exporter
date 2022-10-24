@@ -7,15 +7,15 @@ with open(path.join(root_dir, 'README.md')) as f:
     long_description = f.read()
 
 setup(
-    name='mkdocs-drawio-exporter',
+    name='mkdocs-drawio-exporter-fork',
     long_description=long_description,
     long_description_content_type='text/markdown',
     version='0.9.0',
     packages=['mkdocsdrawioexporter'],
-    url='https://github.com/LukeCarrier/mkdocs-drawio-exporter',
+    url='https://github.com/herberton/mkdocs-drawio-exporter',
     license='MIT',
-    author='Luke Carrier',
-    author_email='luke@carrier.im',
+    author='Herberton Candido Souza',
+    author_email='herberton@gmail.com',
     description='Exports your Draw.io diagrams at build time for easier embedding into your documentation',
     install_requires=['mkdocs'],
 
